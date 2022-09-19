@@ -3,7 +3,7 @@ from django.shortcuts import render
 
 
 def sobre(request):
-    return render(request, 'home.html')
+    return render(request, 'recipes/home.html')
 
 
 def contato(request):
